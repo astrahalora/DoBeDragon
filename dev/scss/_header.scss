@@ -1,0 +1,26 @@
+#mainNav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(4, 38, 59);
+    display: table;
+    text-align: center;
+
+    ul li {
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+
+        a {
+            display: inline-block;
+            color: white;
+            padding: 2em;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: rgba(249, 128, 80, 0.2);
+            color: rgb(249, 128, 80);
+        }
+    }
+}
