@@ -39,4 +39,61 @@ html, body {
   background-color: rgba(249, 128, 80, 0.2);
   color: #f98050;
 }
+
+#background {
+  background: url(/public/assets/images/boardgamesfin2.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#background h3 {
+  color: white;
+  display: table;
+  margin: 0 auto;
+  font-weight: normal;
+  margin-top: 1.7em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+#background .firstp {
+  color: white;
+  display: table;
+  margin: 0 auto;
+  font-weight: normal;
+  margin-top: 1.7rem;
+}
+
+#background img {
+  display: table;
+  margin: 0 auto;
+  width: 34.375em;
+  padding-top: 17.50em;
+}
+
+#background #line {
+  display: table;
+  margin: 0 auto;
+  width: 24.25rem;
+  height: 0.14rem;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+#background button {
+  display: table;
+  margin: 0 auto;
+  height: 3.3rem;
+  width: 17.75rem;
+  margin-top: 2.5rem;
+  background-color: #F98050;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  outline: none;
+  border-radius: 0.35rem;
+}
 /*# sourceMappingURL=style.css.map */
