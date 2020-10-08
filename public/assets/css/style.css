@@ -123,4 +123,73 @@ html, body {
   float: right;
   padding: 1.5em 0 1.2em 1.2em;
 }
+
+#specialcards {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #0F0301;
+  padding: 2rem 5rem;
+}
+
+#specialcards h1, #specialcards p {
+  color: white;
+}
+
+#specialcards img {
+  width: 25em;
+}
+
+.dragons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#red, #green, #blue {
+  margin-right: 1.2em;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 25em;
+}
+
+.redgreenblue {
+  padding: 0.5em 2em 2em 2em;
+}
+
+.redgreenblue #dragonType {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: black;
+}
+
+.redgreenblue #dragonDescription {
+  padding-top: 0.5em;
+  color: black;
+}
+
+h2 {
+  font-weight: normal;
+  color: #0B63AF;
+  padding-top: 0.5em;
+}
+
+.line2 {
+  display: table;
+  margin: 0 auto;
+  width: 9rem;
+  height: 0.14em;
+  background-color: black;
+  margin-top: 0.5em;
+}
 /*# sourceMappingURL=style.css.map */
