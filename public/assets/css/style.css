@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
+  font-size: 95%;
   background-color: #0f0301;
 }
 
@@ -31,7 +31,7 @@ html, body {
 #mainNav ul li a {
   display: inline-block;
   color: white;
-  padding: 2em;
+  padding: 1.5em;
   text-decoration: none;
 }
 
@@ -46,6 +46,7 @@ html, body {
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 25em;
 }
 
 #background h3 {
@@ -95,5 +96,31 @@ html, body {
   cursor: pointer;
   outline: none;
   border-radius: 0.35rem;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#background button:hover {
+  background-color: #0B63AF;
+}
+
+#about {
+  display: table;
+  width: 100%;
+  background-color: #F98050;
+  padding: 2rem 5rem;
+}
+
+#about h1 {
+  margin-bottom: 0.7em;
+}
+
+#about p {
+  font-size: 105%;
+}
+
+#about iframe {
+  float: right;
+  padding: 1.5em 0 1.2em 1.2em;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+#about {
+    display: table;
+    width: 100%;
+    background-color: #F98050;
+    padding: 2rem 5rem;
+
+    h1 {
+        margin-bottom: 0.7em;
+    }
+
+    p {
+        font-size: 105%;
+    }
+
+    iframe {
+        float: right;
+        padding: 1.5em 0 1.2em 1.2em;
+    }
+}
