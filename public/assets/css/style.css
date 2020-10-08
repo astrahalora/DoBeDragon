@@ -83,7 +83,7 @@ html, body {
   margin-top: 2rem;
 }
 
-#background button {
+button {
   display: table;
   margin: 0 auto;
   height: 3.3rem;
@@ -100,7 +100,7 @@ html, body {
   transition: 0.8s;
 }
 
-#background button:hover {
+button:hover {
   background-color: #0B63AF;
 }
 
@@ -166,6 +166,7 @@ html, body {
 
 .redgreenblue {
   padding: 0.5em 2em 2em 2em;
+  font-size: 105%;
 }
 
 .redgreenblue #dragonType {
@@ -192,5 +193,97 @@ h2 {
   height: 0.14em;
   background-color: black;
   margin-top: 0.5em;
+}
+
+#agenda {
+  display: table;
+  width: 100%;
+  background-color: #F98050;
+  padding: 2em 5em;
+}
+
+.scheduleMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 105%;
+}
+
+.schedule {
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+#tickets {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #0F0301;
+  padding: 2em 5em;
+}
+
+#tickets h1, #tickets p {
+  color: white;
+}
+
+#tickets img {
+  width: 25em;
+}
+
+#london, #paris, #rome {
+  margin-right: 1em;
+  margin-top: 1em;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 25em;
+}
+
+footer {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #04263b;
+  padding: 2em 0 3em 0;
+}
+
+footer h2 {
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  display: table;
+  margin: 0 auto;
+  color: white;
+  margin-top: 0.5em;
+  font-size: 105%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffaf46;
+}
+
+#social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socialMedia {
+  width: 6.5em;
 }
 /*# sourceMappingURL=style.css.map */

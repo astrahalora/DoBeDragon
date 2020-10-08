@@ -1,0 +1,34 @@
+footer {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(4, 38, 59);
+    padding: 2em 0 3em 0;
+
+    h2 {
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        display: table;
+        margin: 0 auto;
+        color: white;
+        margin-top: 0.5em;
+        font-size: 105%;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 175, 70);
+    }
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia {
+    width: 6.5em;
+}

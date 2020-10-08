@@ -66,24 +66,24 @@
         background-color: white;
         margin-top: 2rem;
     }
-
-    button {
-        display: table;
-        margin: 0 auto;
-        height: 3.3rem;
-        width: 17.75rem;
-        margin-top: 2.5rem;
-        background-color: #F98050;
-        border: none;
-        color: white;
-        font-size: 1.3rem;
-        cursor: pointer;
-        outline: none;
-        border-radius: 0.35rem;
-        transition: 0.8s;
-    }
-
-    button:hover {
-        background-color: #0B63AF;
-        }
 }
+
+button {
+    display: table;
+    margin: 0 auto;
+    height: 3.3rem;
+    width: 17.75rem;
+    margin-top: 2.5rem;
+    background-color: #F98050;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.35rem;
+    transition: 0.8s;
+}
+
+button:hover {
+    background-color: #0B63AF;
+    }

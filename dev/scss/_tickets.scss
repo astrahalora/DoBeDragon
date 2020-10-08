@@ -1,0 +1,24 @@
+#tickets {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #0F0301;
+    padding: 2em 5em;
+
+    h1, p {
+        color: white;
+    }
+
+    img {
+        width: 25em;
+    }
+}
+
+#london, #paris, #rome {
+    margin-right: 1em;
+    margin-top: 1em;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    width: 25em;
+}
