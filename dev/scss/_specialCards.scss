@@ -37,6 +37,11 @@
     @include tablet {
         width: 70%;
     }
+
+    @include microphone {
+        width: 90%;
+        margin-right: 0em;
+    }
 }
 
 .redgreenblue {

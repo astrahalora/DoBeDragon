@@ -33,5 +33,9 @@
             padding: 0;
             width: 95%;
         }
+
+        @include microphone {
+            height: 100%;
+        }
     }
 }

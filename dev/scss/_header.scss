@@ -99,10 +99,11 @@ label {
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 25em;
+    padding-bottom: 27em;
 
     @include microphone {
         padding-bottom: 14em;
+        text-align: center;
     }
 
     h3 {
@@ -138,7 +139,11 @@ label {
         }
 
         @include microphone {
-            padding-top: 8em;
+            padding-top: 14em;
+        }
+
+        @include tiny {
+            padding-top: 10em;
         }
     }
 
@@ -173,6 +178,10 @@ button {
 
     @include tablet {
     width: 95%;
+    }
+
+    @include microphone {
+        font-size: 105%;
     }
 }
 

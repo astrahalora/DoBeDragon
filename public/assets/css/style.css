@@ -13,6 +13,12 @@ html, body {
   background-color: #0f0301;
 }
 
+@media (max-width: 420px) {
+  html, body {
+    font-size: 90%;
+  }
+}
+
 #mainNav {
   width: 100%;
   position: fixed;
@@ -118,12 +124,13 @@ label {
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 25em;
+  padding-bottom: 27em;
 }
 
 @media (max-width: 420px) {
   #background {
     padding-bottom: 14em;
+    text-align: center;
   }
 }
 
@@ -166,7 +173,13 @@ label {
 
 @media (max-width: 420px) {
   #background img {
-    padding-top: 8em;
+    padding-top: 14em;
+  }
+}
+
+@media (max-width: 385px) {
+  #background img {
+    padding-top: 10em;
   }
 }
 
@@ -205,6 +218,12 @@ button {
 @media (max-width: 720px) {
   button {
     width: 95%;
+  }
+}
+
+@media (max-width: 420px) {
+  button {
+    font-size: 105%;
   }
 }
 
@@ -266,6 +285,12 @@ button:hover {
   }
 }
 
+@media (max-width: 420px) {
+  #about iframe {
+    height: 100%;
+  }
+}
+
 #specialcards {
   display: table;
   margin: 0 auto;
@@ -315,6 +340,13 @@ button:hover {
 @media (max-width: 720px) {
   #red, #green, #blue {
     width: 70%;
+  }
+}
+
+@media (max-width: 420px) {
+  #red, #green, #blue {
+    width: 90%;
+    margin-right: 0em;
   }
 }
 
@@ -417,6 +449,13 @@ h2 {
 @media (max-width: 720px) {
   #london, #paris, #rome {
     width: 70%;
+  }
+}
+
+@media (max-width: 420px) {
+  #london, #paris, #rome {
+    width: 90%;
+    margin-right: 0em;
   }
 }
 
