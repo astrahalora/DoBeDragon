@@ -110,7 +110,7 @@ label {
 }
 
 .menu a:hover {
-  background-color: rgba(249, 128, 80, 0.2);
+  background-color: #35383f;
   color: #f98050;
 }
 
@@ -119,7 +119,7 @@ label {
 }
 
 #background {
-  background: url(/public/assets/images/boardgamesfin2.png);
+  background: url(/www-public/assets/images/boardgamesfin2.png);
   width: 100%;
   height: 100%;
   background-size: cover;
