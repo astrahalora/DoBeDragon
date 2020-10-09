@@ -1,3 +1,39 @@
+$laptop: 1435px;
+$mini: 908px;
+$tablet: 720px;
+$phone: 545px;
+$microphone: 420px;
+
+@mixin laptop {
+    @media (max-width: #{$laptop}) {
+        @content;
+    }
+}
+
+@mixin mini {
+    @media (max-width: #{$mini}) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content
+    }
+}
+
+@mixin phone {
+    @media (max-width: #{$phone}) {
+        @content
+    }
+}
+
+@mixin microphone {
+    @media (max-width: #{$microphone}) {
+        @content
+    }
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

@@ -5,6 +5,11 @@ footer {
     background-color: rgb(4, 38, 59);
     padding: 2em 0 3em 0;
 
+    @include microphone {
+        padding: 1em 1em 2em 1em;
+        text-align: center;
+    }
+
     h2 {
         color: white;
         text-align: center;
@@ -31,4 +36,8 @@ footer {
 
 .socialMedia {
     width: 6.5em;
+
+    @include microphone {
+        width: 85%;
+    }
 }

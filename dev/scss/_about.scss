@@ -2,18 +2,36 @@
     display: table;
     width: 100%;
     background-color: #F98050;
-    padding: 2rem 5rem;
+    padding: 2em 5em;
+
+    @include tablet {
+        padding: 2em 2em;
+        text-align: center;
+    }
 
     h1 {
         margin-bottom: 0.7em;
+
+    @include mini {
+        display: table;
+        float: clear;
+        margin-top: 1em;
+       }
     }
 
     p {
+        text-align: left;
         font-size: 105%;
     }
 
     iframe {
         float: right;
         padding: 1.5em 0 1.2em 1.2em;
+
+        @include mini {
+            float: none;
+            padding: 0;
+            width: 95%;
+        }
     }
 }

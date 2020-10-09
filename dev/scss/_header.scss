@@ -6,6 +6,10 @@
     display: table;
     text-align: center;
 
+    @include tablet {
+        display: none;
+    }
+
     ul li {
         display: inline-block;
         list-style: none;
@@ -25,6 +29,70 @@
     }
 }
 
+#miniNav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(4, 38, 59);
+    text-align: right;
+    display: none;
+
+    @include tablet {
+        display: inline-block;
+    }
+}
+
+label {
+    margin-right: 1em;
+    font-size: 230%;
+    line-height: 1.75em;
+    color: white;
+    cursor: pointer;
+}
+
+#toggle {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    margin-right: 0em;
+    position: fixed;
+    top: 4em;
+    text-align: center;
+    display: none;
+
+    @include tablet {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        width: 100%;
+        background-color: rgb(4, 38, 59);
+        text-decoration: none;
+        color: white;
+        line-height: 2.5em;
+        border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
+        z-index: 2;
+    }
+
+    a:first-child {
+        border-top: 1.5px solid rgba(0, 0, 0, 0.3);
+    }
+
+    a:hover {
+        background-color: rgba(249, 128, 80, 0.2);
+        color: rgb(249, 128, 80);
+    }
+
+}
+
+#toggle:checked + .menu {
+    display: table; 
+}
+
+
 #background {
     background: url(/public/assets/images/boardgamesfin2.png);
     width: 100%;
@@ -32,6 +100,10 @@
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 25em;
+
+    @include microphone {
+        padding-bottom: 14em;
+    }
 
     h3 {
         color: white;
@@ -41,6 +113,10 @@
         margin-top: 1.7em;
         padding-left: 5em;
         padding-right: 5em;
+
+        @include microphone {
+            padding: 1.5em;
+        }
     }
 
     .firstp {
@@ -48,7 +124,7 @@
         display: table;
         margin: 0 auto;
         font-weight: normal;
-        margin-top: 1.7rem;
+        margin-top: 1.7em;
     }
 
     img {
@@ -56,32 +132,56 @@
         margin: 0 auto;
         width: 34.375em; 
         padding-top: 17.50em; 
+
+        @include phone {
+            width: 95%;
+        }
+
+        @include microphone {
+            padding-top: 8em;
+        }
     }
 
     #line {
         display: table;
         margin: 0 auto;
-        width: 24.25rem;
-        height: 0.14rem;
+        width: 24.25em;
+        height: 0.14em;
         background-color: white;
-        margin-top: 2rem;
+        margin-top: 2em;
+
+        @include phone {
+            width: 80%;
+        }
     }
 }
 
 button {
     display: table;
     margin: 0 auto;
-    height: 3.3rem;
-    width: 17.75rem;
-    margin-top: 2.5rem;
+    height: 3.3em;
+    width: 15em;
+    margin-top: 2.5em;
     background-color: #F98050;
     border: none;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.3em;
     cursor: pointer;
     outline: none;
-    border-radius: 0.35rem;
+    border-radius: 0.35em;
     transition: 0.8s;
+
+    @include tablet {
+    width: 95%;
+    }
+}
+
+#firstButton {
+    width: 15em;
+
+    @include microphone {
+        width: 80%;
+    }
 }
 
 button:hover {
