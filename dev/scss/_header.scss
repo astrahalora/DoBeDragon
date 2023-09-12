@@ -94,7 +94,8 @@ label {
 
 
 #background {
-    background: url(/www-public/assets/images/boardgamesfin2.png);
+    background: url(/www-public/assets/images/boardgames.webp);
+    user-select: none;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -132,7 +133,7 @@ label {
         display: table;
         margin: 0 auto;
         width: 34.375em; 
-        padding-top: 17.50em; 
+        padding-top: 17.50em;
 
         @include phone {
             width: 95%;
