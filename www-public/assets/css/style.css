@@ -10,9 +10,8 @@ html, body {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 95%;
-  background-color: #0f0301;
+  background-color: rgb(15, 3, 1);
 }
-
 @media (max-width: 420px) {
   html, body {
     font-size: 90%;
@@ -23,44 +22,39 @@ html, body {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #04263b;
+  background-color: rgb(4, 38, 59);
   display: table;
   text-align: center;
 }
-
 @media (max-width: 720px) {
   #mainNav {
     display: none;
   }
 }
-
 #mainNav ul li {
   display: inline-block;
   list-style: none;
   text-align: center;
 }
-
 #mainNav ul li a {
   display: inline-block;
   color: white;
   padding: 1.5em;
   text-decoration: none;
 }
-
 #mainNav ul li a:hover {
   background-color: rgba(249, 128, 80, 0.2);
-  color: #f98050;
+  color: rgb(249, 128, 80);
 }
 
 #miniNav {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #04263b;
+  background-color: rgb(4, 38, 59);
   text-align: right;
   display: none;
 }
-
 @media (max-width: 720px) {
   #miniNav {
     display: inline-block;
@@ -87,31 +81,27 @@ label {
   text-align: center;
   display: none;
 }
-
 @media (max-width: 720px) {
   .menu {
     display: inline-block;
   }
 }
-
 .menu a {
   display: block;
   width: 100%;
-  background-color: #04263b;
+  background-color: rgb(4, 38, 59);
   text-decoration: none;
   color: white;
   line-height: 2.5em;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
   z-index: 2;
 }
-
 .menu a:first-child {
   border-top: 1.5px solid rgba(0, 0, 0, 0.3);
 }
-
 .menu a:hover {
   background-color: #35383f;
-  color: #f98050;
+  color: rgb(249, 128, 80);
 }
 
 #toggle:checked + .menu {
@@ -126,14 +116,12 @@ label {
   background-attachment: fixed;
   padding-bottom: 27em;
 }
-
 @media (max-width: 420px) {
   #background {
     padding-bottom: 14em;
     text-align: center;
   }
 }
-
 #background h3 {
   color: white;
   display: table;
@@ -143,13 +131,11 @@ label {
   padding-left: 5em;
   padding-right: 5em;
 }
-
 @media (max-width: 420px) {
   #background h3 {
     padding: 1.5em;
   }
 }
-
 #background .firstp {
   color: white;
   display: table;
@@ -157,32 +143,27 @@ label {
   font-weight: normal;
   margin-top: 1.7em;
 }
-
 #background img {
   display: table;
   margin: 0 auto;
   width: 34.375em;
-  padding-top: 17.50em;
+  padding-top: 17.5em;
 }
-
 @media (max-width: 545px) {
   #background img {
     width: 95%;
   }
 }
-
 @media (max-width: 420px) {
   #background img {
     padding-top: 14em;
   }
 }
-
 @media (max-width: 385px) {
   #background img {
     padding-top: 10em;
   }
 }
-
 #background #line {
   display: table;
   margin: 0 auto;
@@ -191,7 +172,6 @@ label {
   background-color: white;
   margin-top: 2em;
 }
-
 @media (max-width: 545px) {
   #background #line {
     width: 80%;
@@ -214,13 +194,11 @@ button {
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
-
 @media (max-width: 720px) {
   button {
     width: 95%;
   }
 }
-
 @media (max-width: 420px) {
   button {
     font-size: 105%;
@@ -230,7 +208,6 @@ button {
 #firstButton {
   width: 15em;
 }
-
 @media (max-width: 420px) {
   #firstButton {
     width: 80%;
@@ -247,18 +224,15 @@ button:hover {
   background-color: #F98050;
   padding: 2em 5em;
 }
-
 @media (max-width: 720px) {
   #about {
     padding: 2em 2em;
     text-align: center;
   }
 }
-
 #about h1 {
   margin-bottom: 0.7em;
 }
-
 @media (max-width: 908px) {
   #about h1 {
     display: table;
@@ -266,27 +240,24 @@ button:hover {
     margin-top: 1em;
   }
 }
-
 #about p {
   text-align: left;
   font-size: 105%;
 }
-
-#about iframe {
+#about .video-standin {
   float: right;
   padding: 1.5em 0 1.2em 1.2em;
+  cursor: pointer;
 }
-
 @media (max-width: 908px) {
-  #about iframe {
+  #about .video-standin {
     float: none;
     padding: 0;
     width: 95%;
   }
 }
-
 @media (max-width: 420px) {
-  #about iframe {
+  #about .video-standin {
     height: 100%;
   }
 }
@@ -298,17 +269,14 @@ button:hover {
   background-color: #0F0301;
   padding: 2rem 5rem;
 }
-
 @media (max-width: 720px) {
   #specialcards {
     padding: 2em 2em;
   }
 }
-
-#specialcards h1, #specialcards p {
+#specialcards h1, #specialcards .firstp {
   color: white;
 }
-
 #specialcards img {
   width: 100%;
 }
@@ -336,13 +304,11 @@ button:hover {
   text-align: center;
   width: 25em;
 }
-
 @media (max-width: 720px) {
   #red, #green, #blue {
     width: 70%;
   }
 }
-
 @media (max-width: 420px) {
   #red, #green, #blue {
     width: 90%;
@@ -354,14 +320,12 @@ button:hover {
   padding: 0.5em 2em 2em 2em;
   font-size: 105%;
 }
-
-.redgreenblue #dragonType {
+.redgreenblue .dragonType {
   font-size: 1.25em;
   font-weight: bold;
   color: black;
 }
-
-.redgreenblue #dragonDescription {
+.redgreenblue .dragonDescription {
   padding-top: 0.5em;
   color: black;
 }
@@ -387,7 +351,6 @@ h2 {
   background-color: #F98050;
   padding: 2em 5em;
 }
-
 @media (max-width: 720px) {
   #agenda {
     padding: 2em 2em;
@@ -420,17 +383,14 @@ h2 {
   background-color: #0F0301;
   padding: 2em 5em;
 }
-
 @media (max-width: 720px) {
   #tickets {
     padding: 2em 2em;
   }
 }
-
-#tickets h1, #tickets p {
+#tickets h1, #tickets .firstp {
   color: white;
 }
-
 #tickets img {
   width: 100%;
 }
@@ -445,13 +405,11 @@ h2 {
   text-align: center;
   width: 25em;
 }
-
 @media (max-width: 720px) {
   #london, #paris, #rome {
     width: 70%;
   }
 }
-
 @media (max-width: 420px) {
   #london, #paris, #rome {
     width: 90%;
@@ -463,22 +421,19 @@ footer {
   display: table;
   margin: 0 auto;
   width: 100%;
-  background-color: #04263b;
+  background-color: rgb(4, 38, 59);
   padding: 2em 0 3em 0;
 }
-
 @media (max-width: 420px) {
   footer {
     padding: 1em 1em 2em 1em;
     text-align: center;
   }
 }
-
 footer h2 {
   color: white;
   text-align: center;
 }
-
 footer p {
   display: table;
   margin: 0 auto;
@@ -486,10 +441,9 @@ footer p {
   margin-top: 0.5em;
   font-size: 105%;
 }
-
 footer a {
   text-decoration: none;
-  color: #ffaf46;
+  color: rgb(255, 175, 70);
 }
 
 #social {
@@ -504,10 +458,8 @@ footer a {
 .socialMedia {
   width: 6.5em;
 }
-
 @media (max-width: 420px) {
   .socialMedia {
     width: 85%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

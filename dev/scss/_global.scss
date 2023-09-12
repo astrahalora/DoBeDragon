@@ -13,31 +13,31 @@ $tiny: 385px;
 
 @mixin mini {
     @media (max-width: #{$mini}) {
-        @content
+        @content;
     }
 }
 
 @mixin tablet {
     @media (max-width: #{$tablet}) {
-        @content
+        @content;
     }
 }
 
 @mixin phone {
     @media (max-width: #{$phone}) {
-        @content
+        @content;
     }
 }
 
 @mixin microphone {
     @media (max-width: #{$microphone}) {
-        @content
+        @content;
     }
 }
 
 @mixin tiny {
     @media (max-width: #{$tiny}) {
-        @content
+        @content;
     }
 }
 
