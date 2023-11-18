@@ -1,5 +1,5 @@
 # DoBeDragon
-This is a fully responsive sample landing page for an Event.
+This is a fully responsive sample landing page for an Event. **[Cick Here to View In Browser](https://astrahalora.github.io/dobedragon)**
 
 It features a hero section capitalizing on the logo of the event and its main call to action (registering). 
 
