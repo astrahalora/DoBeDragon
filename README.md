@@ -1,6 +1,12 @@
 # DoBeDragon
 This is a fully responsive sample landing page for an Event. **[Cick Here to View In Browser](https://astrahalora.github.io/dobedragon)**
 
+Complete with:
+- fav icon
+- custom logo, cards, and contact button images made by **astrahalora**
+- easy navigation
+- other assets from: Unsplash or generated with LeondardoAi
+
 It features a hero section capitalizing on the logo of the event and its main call to action (registering). 
 
 ![dobedragon](https://images2.imgbox.com/b0/d3/z0VzzDdO_o.png)
