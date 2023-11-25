@@ -5,7 +5,7 @@ Complete with:
 - fav icon
 - custom logo, cards, and contact button images made by **astrahalora**
 - easy navigation
-- other assets from: Unsplash or generated with LeondardoAi
+- other assets from: Unsplash or generated with LeonardoAi
 
 It features a hero section capitalizing on the logo of the event and its main call to action (registering). 
 
