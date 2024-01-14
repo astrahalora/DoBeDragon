@@ -1,5 +1,5 @@
 # DoBeDragon
-This is a fully responsive sample landing page for an Event. **[Cick Here to View In Browser](https://astrahalora.github.io/dobedragon){:target="_blank"}**
+This is a fully responsive sample landing page for an Event. [Cick Here to View In Browser](https://astrahalora.github.io/dobedragon){:target="_blank"}
 
 Complete with:
 - fav icon
